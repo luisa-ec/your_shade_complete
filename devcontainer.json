@@ -1,0 +1,15 @@
+{
+  "name": "Flutter Dev",
+  "build": { 
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "dart-code.flutter",
+    "dart-code.dart-code"
+  ],
+  "postCreateCommand": "flutter doctor"
+
+  }
